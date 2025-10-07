@@ -1,0 +1,405 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GameForge Studios - Craft Epic Gaming Experiences</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.7.2/font/bootstrap-icons.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;600;700;900&family=Rajdhani:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/style/style.css">
+</head>
+<body>
+    <div class="bg-animated"></div>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="#home">⚡ GAMEFORGE</a>
+            
+            <input type="checkbox" id="menu-toggle" />
+            <label for="menu-toggle" class="hamburger">
+                <i class="bi bi-list"></i>
+            </label>
+            
+            <div class="nav-links d-lg-flex">
+                <a href="#home" class="nav-link">HOME</a>
+                <a href="#about" class="nav-link">STUDIO</a>
+                <a href="#team" class="nav-link">LEGENDS</a>
+                <a href="#services" class="nav-link">ARSENAL</a>
+                <a href="#contact" class="nav-link">QUEST</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero -->
+    <section id="home" class="hero">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-6">
+                    <div class="hero-content">
+                        <h1>CRAFT EPIC GAMING EXPERIENCES</h1>
+                        <p>Kami menciptakan game yang memukau dengan teknologi cutting-edge dan storytelling yang mendalam. Dari mobile hingga console, kami menghadirkan dunia virtual yang tak terlupakan.</p>
+                        <a href="#about" class="btn-game">START YOUR QUEST</a>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="hero-image">
+                        <img src="https://images.unsplash.com/photo-1542751371-adc38448a05e?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80" alt="Gaming" class="img-fluid">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About -->
+    <section id="about" class="about section-padding">
+        <div class="container">
+            <h2 class="section-title">ABOUT THE FORGE</h2>
+            <p class="section-subtitle">Where Imagination Meets Innovation</p>
+            
+            <div class="row align-items-center">
+                <div class="col-lg-6 mb-4">
+                    <div class="hero-image">
+                        <img src="assets/img/Valley Creek Control Room.jpg" alt="Studio" class="img-fluid">
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="about-card">
+                        <div class="about-content">
+                            <h3>🎮 VISI KAMI</h3>
+                            <p>"Menjadi game studio terdepan yang menghadirkan pengalaman gaming revolusioner, memadukan teknologi AAA dengan kreativitas tanpa batas untuk menciptakan game yang mengubah industri."</p>
+                            
+                            <h3 class="mt-4">⚔️ MISI KAMI</h3>
+                            <p>Mengembangkan game berkualitas AAA dengan gameplay inovatif. Menciptakan storyline yang mendalam dan memorable. Mengoptimalkan performa untuk semua platform. Membangun komunitas gaming yang solid. Berinovasi dengan teknologi game terkini seperti ray-tracing, AI, dan VR.</p>
+                            
+                            <a href="#services" class="btn-game mt-3">EXPLORE ARSENAL</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Team -->
+    <section id="team" class="team section-padding">
+        <div class="container">
+            <h2 class="section-title">THE LEGENDS</h2>
+            <p class="section-subtitle">Elite Team Behind Epic Games</p>
+            
+            <div class="row g-4">
+                <div class="col-lg-4 col-md-6">
+                    <div class="team-card">
+                        <img src="https://images.unsplash.com/photo-1560250097-0b93528c311a?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80" alt="Lead Developer" class="team-avatar">
+                        <h5>Marcus Steel</h5>
+                        <p>Creative Director & Founder</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="team-card">
+                        <img src="https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80" alt="Game Designer" class="team-avatar">
+                        <h5>Nova Chen</h5>
+                        <p>Lead Game Designer</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="team-card">
+                        <img src="https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80" alt="Technical Artist" class="team-avatar">
+                        <h5>Alex Thunder</h5>
+                        <p>Technical Director</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services -->
+    <section id="services" class="services section-padding">
+        <div class="container">
+            <h2 class="section-title">OUR ARSENAL</h2>
+            <p class="section-subtitle">Full-Stack Game Development Solutions</p>
+            
+            <div class="row g-4">
+                <div class="col-lg-4 col-md-6">
+                    <div class="service-card">
+                        <div class="service-icon">
+                            <i class="bi bi-controller"></i>
+                        </div>
+                        <h5>Game Development</h5>
+                        <p>Pembuatan game AAA untuk PC, console, dan mobile dengan Unreal Engine 5, Unity, dan teknologi next-gen terkini.</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="service-card">
+                        <div class="service-icon">
+                            <i class="bi bi-brush"></i>
+                        </div>
+                        <h5>Art & Animation</h5>
+                        <p>3D modeling, character design, environment art, dan motion capture untuk menciptakan visual yang memukau.</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="service-card">
+                        <div class="service-icon">
+                            <i class="bi bi-soundwave"></i>
+                        </div>
+                        <h5>Sound Design</h5>
+                        <p>Komposisi musik original, sound effects, dan voice acting untuk pengalaman audio yang immersive.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact" class="contact section-padding">
+        <div class="container">
+            <h2 class="section-title">START YOUR QUEST</h2>
+            <p class="section-subtitle">Ready to Create Something Epic?</p>
+            
+            <div class="row g-4">
+                <div class="col-lg-4">
+                    <div class="contact-info">
+                        <h5>⚡ CONTACT INFO</h5>
+                        
+                        <div class="contact-info-item">
+                            <i class="bi bi-geo-alt-fill"></i>
+                            <span>GameForge HQ, Sentul Creative Hub, Bogor 16810</span>
+                        </div>
+                        
+                        <div class="contact-info-item">
+                            <i class="bi bi-telephone-fill"></i>
+                            <span>+62 877 6217 1015</span>
+                        </div>
+                        
+                        <div class="contact-info-item">
+                            <i class="bi bi-envelope-fill"></i>
+                            <span>gameforge@gmail.com</span>
+                        </div>
+                        
+                        <div class="contact-info-item">
+                            <i class="bi bi-clock-fill"></i>
+                            <span>Mon - Fri: 09:00 - 22:00 WIB</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-lg-8">
+                    <form id="contactForm" class="contact-form">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="form-group mb-3">
+                                    <label for="name" class="form-label">Full Name *</label>
+                                    <input type="text" class="form-control" id="name" name="name" placeholder="Enter your name" required>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="form-group mb-3">
+                                    <label for="email" class="form-label">Email *</label>
+                                    <input type="email" class="form-control" id="email" name="email" placeholder="your@email.com" required>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="form-group mb-3">
+                                    <label for="phone" class="form-label">Phone Number</label>
+                                    <input type="tel" class="form-control" id="phone" name="phone" placeholder="+62 xxx xxxx xxxx">
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="form-group mb-3">
+                                    <label for="subject" class="form-label">Service Interested *</label>
+                                    <select class="form-control" id="subject" name="subject" required>
+                                        <option value="">Select service</option>
+                                        <option value="game-dev">Game Development</option>
+                                        <option value="art-animation">Art & Animation</option>
+                                        <option value="sound-design">Sound Design</option>
+                                        <option value="consultation">General Consultation</option>
+                                    </select>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="form-group mb-3">
+                            <label for="message" class="form-label">Message *</label>
+                            <textarea class="form-control" id="message" name="message" rows="5" placeholder="Tell us about your project..." required></textarea>
+                        </div>
+                        
+                        <button type="submit" class="btn-submit">
+                            <i class="bi bi-send-fill me-2"></i>LAUNCH QUEST
+                        </button>
+                    </form>
+                </div>
+            </div>
+            
+            <!-- Google Maps Section -->
+            <div class="row mt-5">
+                <div class="col-12">
+                    <div class="map-section">
+                        <h5 class="map-title text-center mb-4">
+                            <i class="bi bi-pin-map-fill me-2"></i>
+                            LOCATE THE FORGE
+                        </h5>
+                        <div class="map-container">
+                            <iframe 
+                                src="https://maps.google.com/maps?width=100%25&amp;height=400&amp;hl=en&amp;q=IDN%20Boarding%20School%20Sentul+(GameForge%20Studios)&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"
+                                width="100%" 
+                                height="450" 
+                                style="border:0;" 
+                                allowfullscreen="" 
+                                loading="lazy" 
+                                referrerpolicy="no-referrer-when-downgrade">
+                            </iframe>
+                        </div>
+                        <p class="text-center mt-3" style="color: var(--text-light); opacity: 0.8;">
+                            <i class="bi bi-geo-alt-fill me-2" style="color: var(--neon-cyan);"></i>
+                            GameForge Studios HQ - Sentul Creative Hub, Bogor, Indonesia
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-md-6 mb-3 mb-md-0">
+                    <h5>⚡ GAMEFORGE STUDIOS</h5>
+                    <p class="mb-0">Crafting legendary gaming experiences since 2025.</p>
+                </div>
+                <div class="col-md-6 text-md-end">
+                    <div class="social-links mb-3">
+                        <a href="#"><i class="bi bi-discord"></i></a>
+                        <a href="#"><i class="bi bi-twitch"></i></a>
+                        <a href="#"><i class="bi bi-youtube"></i></a>
+                        <a href="#"><i class="bi bi-twitter"></i></a>
+                        <a href="#"><i class="bi bi-instagram"></i></a>
+                    </div>
+                    <p class="mb-0">&copy; 2025 GameForge Studios. All Rights Reserved.</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+    
+    <script>
+        // Smooth scrolling
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) {
+                    const navbarHeight = document.querySelector('.navbar').offsetHeight;
+                    const targetPosition = target.offsetTop - navbarHeight - 20;
+                    window.scrollTo({ top: targetPosition, behavior: 'smooth' });
+                }
+            });
+        });
+
+        // Navbar scroll effect
+        window.addEventListener('scroll', function() {
+            const navbar = document.querySelector('.navbar');
+            if (window.scrollY > 100) {
+                navbar.classList.add('scrolled');
+            } else {
+                navbar.classList.remove('scrolled');
+            }
+        });
+
+        // Mobile menu close
+        document.querySelectorAll('.nav-link').forEach(link => {
+            link.addEventListener('click', function() {
+                document.getElementById('menu-toggle').checked = false;
+            });
+        });
+
+        // Form validation
+        const contactForm = document.getElementById('contactForm');
+        
+        contactForm.addEventListener('submit', function(e) {
+            e.preventDefault();
+            
+            const name = document.getElementById('name').value.trim();
+            const email = document.getElementById('email').value.trim();
+            const subject = document.getElementById('subject').value;
+            const message = document.getElementById('message').value.trim();
+            
+            if (name && email && subject && message) {
+                showNotification('Quest accepted! Our team will contact you soon.', 'success');
+                contactForm.reset();
+            } else {
+                showNotification('Please complete all required fields.', 'error');
+            }
+        });
+
+        function showNotification(message, type) {
+            const notification = document.createElement('div');
+            notification.className = `alert alert-${type === 'success' ? 'success' : 'danger'} alert-dismissible fade show position-fixed`;
+            notification.style.cssText = `
+                top: 100px;
+                right: 20px;
+                z-index: 1060;
+                max-width: 400px;
+                box-shadow: 0 0 30px rgba(0, 245, 255, 0.5);
+                background: ${type === 'success' ? 'rgba(0, 245, 255, 0.2)' : 'rgba(255, 0, 110, 0.2)'};
+                border: 2px solid ${type === 'success' ? 'var(--neon-cyan)' : 'var(--neon-pink)'};
+                color: white;
+                backdrop-filter: blur(10px);
+            `;
+            
+            notification.innerHTML = `
+                ${message}
+                <button type="button" class="btn-close btn-close-white" data-bs-dismiss="alert"></button>
+            `;
+            
+            document.body.appendChild(notification);
+            
+            setTimeout(() => {
+                if (notification.parentNode) {
+                    notification.remove();
+                }
+            }, 5000);
+        }
+
+        // Scroll animations
+        const observerOptions = {
+            threshold: 0.1,
+            rootMargin: '0px 0px -50px 0px'
+        };
+
+        const observer = new IntersectionObserver(function(entries) {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.style.opacity = '1';
+                    entry.target.style.transform = 'translateY(0)';
+                }
+            });
+        }, observerOptions);
+
+        document.addEventListener('DOMContentLoaded', function() {
+            const animateElements = document.querySelectorAll('.team-card, .service-card, .about-card, .contact-info, .contact-form');
+            
+            animateElements.forEach(el => {
+                el.style.opacity = '0';
+                el.style.transform = 'translateY(30px)';
+                el.style.transition = 'opacity 0.6s ease, transform 0.6s ease';
+                observer.observe(el);
+            });
+        });
+
+        // Parallax effect for hero image
+        window.addEventListener('scroll', function() {
+            const scrolled = window.pageYOffset;
+            const heroImage = document.querySelector('.hero-image img');
+            if (heroImage) {
+                heroImage.style.transform = `translateY(${scrolled * 0.3}px)`;
+            }
+        });
+    </script>
+</body>
+</html>
